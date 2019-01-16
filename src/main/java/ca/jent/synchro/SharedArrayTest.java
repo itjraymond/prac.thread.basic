@@ -1,4 +1,4 @@
-package ca.jent.ca.jent.synchro;
+package ca.jent.synchro;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

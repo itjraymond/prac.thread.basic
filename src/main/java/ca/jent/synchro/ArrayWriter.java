@@ -1,4 +1,4 @@
-package ca.jent.ca.jent.synchro;
+package ca.jent.synchro;
 
 /**
  * You can have serveral ArrayWriter that will write values to a shared array.  ** NOT THREAD SAFE
