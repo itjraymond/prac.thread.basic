@@ -9,7 +9,10 @@ public class BufferTest {
 
     public static void main(String[] args) {
 
-        Buffer buffer = new BlockingBuffer();
+        // Buffer buffer = new BlockingBuffer();
+
+        Buffer buffer = new SynchronizedBuffer();
+
         ExecutorService executorService = Executors.newCachedThreadPool();
 
         executorService.execute(new Producer(buffer));
