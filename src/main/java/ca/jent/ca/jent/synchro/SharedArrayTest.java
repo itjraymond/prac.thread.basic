@@ -4,6 +4,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * Just small Thread demo showing a usage of the synchronized keyword.
+ * @see SharedArray
+ */
 public class SharedArrayTest {
 
     public static void main(String[] args) {
