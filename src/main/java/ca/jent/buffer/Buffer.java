@@ -2,7 +2,7 @@ package ca.jent.buffer;
 
 public interface Buffer {
 
-    void put(int value);
+    void put(int value) throws InterruptedException;
 
-    int get();
+    int get() throws InterruptedException;
 }

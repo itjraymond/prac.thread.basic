@@ -2,6 +2,10 @@ package ca.jent.buffer;
 
 import java.util.concurrent.ArrayBlockingQueue;
 
+/**
+ * Because the ArrayBlockingQueue implement the synchronization for us, we do not need to qualify our
+ * mutating method along with the get.
+ */
 public class BlockingBuffer implements Buffer {
 
     private final ArrayBlockingQueue<Integer> buffer;
